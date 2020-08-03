@@ -1,0 +1,45 @@
+<template>
+ <div>
+<van-tabs v-model="active" >
+  <van-tab title="商品详情" line-height=0px>
+      <div v-html="goods.goodsOne.detail"></div>
+  </van-tab>
+  <van-tab title="商品评论" line-height=0px>内容 2</van-tab>
+</van-tabs>
+ </div>
+</template>
+
+<script>
+ export default {
+   name: '',
+   props: {
+       goods:{
+           type:Object
+       }
+   },
+   components: {
+
+   },
+   data () {
+     return {
+         active: 0,
+     }
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+
+</style>

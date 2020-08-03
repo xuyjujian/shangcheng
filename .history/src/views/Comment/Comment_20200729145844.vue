@@ -1,0 +1,42 @@
+<template>
+ <div>
+      <div class="wt">
+      <div class="icon" @click="icon">
+        <van-icon name="arrow-left" color="#1989fa" size="20" />
+      </div>
+      <div class="pt pb fsl tex" style="border-bottom: #EEEEEE solid 1px">评价中心</div>
+    </div>
+ </div>
+</template>
+
+<script>
+ export default {
+   name: '',
+   props: {
+   },
+   components: {
+
+   },
+   data () {
+     return {
+
+     }
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped lang='scss'>
+
+</style>

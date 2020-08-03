@@ -1,0 +1,44 @@
+<template>
+  <div>
+    <div v-if="goods.goodsOne"> 
+      <div v-html="goods.goodsOne.detail"></div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {
+      goodsid: "",
+      goods: {}
+    };
+  },
+  methods: {},
+  mounted() {
+    this.goodsid = this.id;
+    this.$api
+      .getGoods(this.goodsid)
+      .then(res => {
+        if (res.code === 200) {
+          this.goods = res.goods;
+        }
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  },
+  watch: {},
+  computed: {
+    id() {
+      return this.$store.state.goodid;
+    }
+  }
+};
+</script>
+
+<style scoped lang='scss'>
+</style>

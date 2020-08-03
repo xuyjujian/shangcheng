@@ -1,0 +1,351 @@
+{
+  "keys": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+  "middleware": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+      "port": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+      "hostname": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "mapping": {
+      ".html": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js"
+    },
+    "root": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "mongoose": {
+    "client": {
+      "url": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+      "options": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js"
+    },
+    "open": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "url": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "options": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "plugins": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "loadModel": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "app": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js",
+    "agent": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-mongoose@3.2.0@egg-mongoose\\config\\config.default.js"
+  },
+  "security": {
+    "csrf": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "key": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "maxAge": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "overwrite": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "httpOnly": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "signed": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "rolling": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "renew": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "encrypt": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "jsonLimit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "formLimit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "textLimit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "strict": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "depth": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "parameterLimit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "onerror": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "jwt": {
+    "secret": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+    "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-jwt@3.1.7@egg-jwt\\config\\config.default.js"
+  },
+  "url": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+  "uploadDir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+  "secret": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\config\\config.default.js",
+  "helper": {
+    "shtml": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "autoFields": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldSize": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fields": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileSize": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "files": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "whitelist": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "tmpdir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "fastReady": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "ejs": {
+    "root": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "cache": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.local.js",
+    "debug": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "strict": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js"
+  },
+  "env": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "name": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "cookies": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "proxy": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "maxIpsCount": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "maxProxyCount": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "protocolHeaders": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "ipHeaders": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "hostHeaders": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "pkg": {
+    "postcss": {
+      "plugins": {
+        "postcss-import": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+        "postcss-url": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+        "postcss-aspect-ratio-mini": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+        "postcss-write-svg": {
+          "utf8": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+        },
+        "postcss-cssnext": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+        "postcss-px-to-viewport": {
+          "viewportWidth": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "viewportHeight": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "unitPrecision": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "viewportUnit": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "selectorBlackList": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "minPixelValue": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+          "mediaQuery": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+        },
+        "cssnano": {
+          "cssnano-preset-advanced": {
+            "preset": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+            "autoprefixer": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+            "postcss-zindex": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+            "zindex": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+          }
+        }
+      }
+    },
+    "name": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "version": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "description": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "private": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-jwt": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-mongoose": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-scripts": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-view-ejs": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "md5": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "mz-modules": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "request": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "silly-datetime": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "svg-captcha": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "autod-egg": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-bin": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-ci": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-mock": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "eslint": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "webstorm-disable-index": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "stop": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "dev": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "debug": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "test": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "test-local": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "cov": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "lint": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "ci": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "autod": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "url": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "author": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "license": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "baseDir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "HOME": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "rundir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "notFound": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "sitefile": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "middlewares": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "httpClient": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "encoding": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "env": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "level": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "consoleLevel": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "outputJSON": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "buffer": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "appLogName": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "coreLogName": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "agentLogName": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "errorLogName": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxSockets": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "logging": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "serverTimeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "responseTimeout": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "C:\\Users\\xyj\\Desktop\\shangcheng\\server\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
+}

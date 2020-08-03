@@ -1,0 +1,105 @@
+<template>
+  <div>
+    <van-cell-group>
+      <van-cell title="全部订单" icon="records" is-link @click="all" />
+      <br />
+      <van-cell title="收藏商品" icon="points" is-link @click="collection" />
+      <van-cell title="地址管理" icon="gold-coin-o" is-link @click="address" />
+      <van-cell title="最近浏览" icon="gift-o" is-link @click="browse" />
+    </van-cell-group>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "",
+  props: {},
+  components: {},
+  data() {
+    return {
+      user: "",
+      num: null,
+    };
+  },
+  methods: {
+    all() {
+      if (this.user) {
+        this.num = 0;
+        this.$router.push({
+          path: "/finish",
+          query: {
+            num: this.num,
+          },
+        });
+      } else {
+        this.$dialog
+          .confirm({
+            message: "您还未登录，请您先的登录",
+          })
+          .then(() => {
+            this.$router.push("/login");
+          })
+          .catch(() => {
+            // on cancel
+          });
+      }
+    },
+    collection() {
+      if (this.user) {
+        this.$router.push("/collection");
+      } else {
+        this.$dialog
+          .confirm({
+            message: "您还未登录，请您先的登录",
+          })
+          .then(() => {
+            this.$router.push("/login");
+          })
+          .catch(() => {
+            // on cancel
+          });
+      }
+    },
+    address() {
+      if (this.user) {
+        this.$router.push("/addresslist");
+      } else {
+        this.$dialog
+          .confirm({
+            message: "您还未登录，请您先的登录",
+          })
+          .then(() => {
+            this.$router.push("/login");
+          })
+          .catch(() => {
+            // on cancel
+          });
+      }
+    },
+    browse() {
+      if (this.user) {
+        this.$router.push("/browse");
+      } else {
+        this.$dialog
+          .confirm({
+            message: "您还未登录，请您先的登录",
+          })
+          .then(() => {
+            this.$router.push("/login");
+          })
+          .catch(() => {
+            // on cancel
+          });
+      }
+    },
+  },
+  mounted() {
+    this.user = JSON.parse(localStorage.getItem("user"));
+  },
+  watch: {},
+  computed: {},
+};
+</script>
+
+<style scoped lang='scss'>
+</style>
